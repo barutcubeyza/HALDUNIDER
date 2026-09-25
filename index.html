@@ -13,6 +13,7 @@
     --status-todo:#8B8680;
     --status-progress:#C79A3E;
     --status-done:#3D7A5C;
+    --status-cancelled:#A35A55;
     --radius:10px;
     font-family:"Segoe UI",Arial,sans-serif;
   }
@@ -69,7 +70,8 @@
   .phase-tag{font-size:9.5px;padding:1px 6px;border-radius:20px;background:var(--gold);color:#2b2200;font-weight:700;text-transform:uppercase;letter-spacing:.02em;}
 
   /* ===== Pano (Kanban) ===== */
-  .board{display:grid;grid-template-columns:repeat(3,1fr);gap:14px;align-items:start;}
+  .board{display:grid;grid-template-columns:repeat(4,1fr);gap:14px;align-items:start;}
+  .cancelled .title,.cancelled .chip-title{text-decoration:line-through;color:var(--ink-soft);}
   .col{background:#F1EEE7;border-radius:var(--radius);padding:10px;min-height:200px;}
   .col-head{display:flex;align-items:center;gap:8px;padding:4px 6px 12px 6px;}
   .dot{width:9px;height:9px;border-radius:50%;}
@@ -206,8 +208,8 @@
   const NOT_CONFIGURED = firebaseConfig.apiKey === "BURAYA_API_KEY";
 
   const MONTHS = ["Eylül","Ekim","Kasım","Aralık","Ocak","Şubat","Mart","Nisan","Mayıs","Haziran","Temmuz","Ağustos"];
-  const STATUS = ["Yapılacak","Devam Ediyor","Tamamlandı"];
-  const STATUS_COLOR = {"Yapılacak":"var(--status-todo)","Devam Ediyor":"var(--status-progress)","Tamamlandı":"var(--status-done)"};
+  const STATUS = ["Yapılacak","Devam Ediyor","Tamamlandı","İptal Edildi"];
+  const STATUS_COLOR = {"Yapılacak":"var(--status-todo)","Devam Ediyor":"var(--status-progress)","Tamamlandı":"var(--status-done)","İptal Edildi":"var(--status-cancelled)"};
   const CATS = ["Organizasyon","Kurumsal İletişim","Mali","Proje","Eğitim","Üye & Mezun İlişkileri","Kurumsal İşbirlikleri","Hukuk","Kariyer","Yönetim","Diğer"];
   const CAT_COLORS = {
     "Organizasyon":"#8F2A38",
@@ -418,7 +420,7 @@
       const items = TASKS.filter(t=>taskMonths(t).includes(mi));
       const body = items.length ? items.map(t=>{
         const ph = phaseLabel(t, mi);
-        return `<div class="chip" data-open="${t.id}" style="border-left-color:${catColor(t.kategori)}">
+        return `<div class="chip${t.durum==="İptal Edildi"?" cancelled":""}" data-open="${t.id}" style="border-left-color:${catColor(t.kategori)}">
           <div class="chip-title">${esc(t.madde)} ${ph?`<span class="phase-tag">${ph}</span>`:""}</div>
           <div class="chip-meta"><span>${esc(personName(t.ana)||"Sorumlu atanmadı")}</span><span style="color:${catColor(t.kategori)};font-weight:600;">${esc(t.kategori)}</span></div>
         </div>`;
@@ -440,7 +442,7 @@
       const cardsHtml = items.length ? items.map(t=>{
         const prog = stepProgress(t);
         const range = t.bas!=null ? (t.tip==="Çok Adımlı" ? `${MONTHS[t.bas]} – ${MONTHS[t.bit]}` : MONTHS[t.bas]) : "Ay atanmadı";
-        return `<div class="card" data-open="${t.id}" style="border-top:3px solid ${catColor(t.kategori)}">
+        return `<div class="card${t.durum==="İptal Edildi"?" cancelled":""}" data-open="${t.id}" style="border-top:3px solid ${catColor(t.kategori)}">
           <div class="cat">${esc(t.kategori)}</div>
           <div class="title">${esc(t.madde)}</div>
           <div class="range">📅 ${range}</div>

@@ -4,6 +4,8 @@
 
 demo: hayır
 
+> **Ayrıntılı dernek bilgisi:** `sirket/dernek-bilgi.md`. Her çalışan bu kartı okuduktan sonra o dosyada işine ilişkin başlığı da okur (ses, resmi yazışma, görsel kimlik, etkinlik-bütçe). İkisi çelişirse bu kart geçerlidir.
+
 ## Dernek
 
 - **Ad:** HALDUNİDER, İbn Haldun Üniversitesi Mezunları ve Mensupları Derneği. Kısa adı HALDUNİDER, üniversitenin kısa adı İHÜ.

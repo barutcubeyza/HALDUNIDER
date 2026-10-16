@@ -16,7 +16,8 @@ demo: hayır
 - Instagram: gönderi ve story.
 - LinkedIn.
 - X.
-- WhatsApp grupları: üye grubu ve Halduniler Dayanışma Ağı.
+- WhatsApp grupları: üye grubu, Halduniler Dayanışma Ağı ve uluslararası grup.
+- "Dünyadaki Mezunlarımız" içerikleri (Türkçe ve İngilizce).
 - Üniversiteye giden resmi yazılar.
 - Tanıtım kitapçığı ve faaliyet raporu.
 
@@ -37,6 +38,10 @@ demo: hayır
 - Renkler: yalnız lacivert, bordo ve altın. Dernek panosunda kullanılan tonlar: lacivert `#1F2A4D`, bordo `#8F2A38`, altın `#C79A3E`. Logo kılavuzundaki kodlar farklıysa kılavuz geçerlidir. [SAHİBE SOR: kılavuzdaki kesin renk kodları]
 - Başka renk ya da yazı tipi önerilmez.
 
+## Kaynaklar
+
+- Servis araçları: 27 kişilik ve 45 kişilik.
+
 ## Kırmızı çizgiler
 
 - Uydurma rakam ya da tarih yazılmaz. Bu dosyada ya da iş tanımında yazmayan tarih, saat, yer, katılımcı sayısı ve tutar metne girmez; eksik bilgi `[SAHİBE SOR]` diye işaretlenir.
@@ -44,6 +49,8 @@ demo: hayır
 - Başkalarının başarısı ya da projesi derneğinmiş gibi yazılmaz. Ortak çalışmada iş birliği yapılan kurum adıyla anılır.
 - Kişisel telefon numarası ve kişisel iletişim bilgisi paylaşılmaz. Yalnız yukarıdaki kurumsal e-posta adresleri kullanılır.
 - Ekip üyeleri doğrudan etiketlenmez (mention edilmez). Ekip üyelerinin özel durumları yazılmaz.
+- Her paylaşımda projenin kime ait olduğu açıkça yazılır: dernek, ortak (kurum adıyla) ya da başka kurumun işi.
+- Bu klasöre yalnız dernek içeriği girer. Kişisel notlar ve gizli görüşmeler buraya yazılmaz, çıktılara taşınmaz.
 
 ## Bu dönemin bilgileri
 

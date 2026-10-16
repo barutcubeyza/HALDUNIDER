@@ -25,7 +25,10 @@ Sahibi klasörde ilk kez konuştuğunda `sirket/SIRKET.md` içinde `demo: evet` 
 |---|---|---|---|
 | Yazar | `.claude/agents/yazar.md` | Metin gerekiyorsa: bülten, gönderi, sayfa metni, senaryo, mail taslağı. | Evet |
 | Çizer | `.claude/agents/cizer.md` | Görsel gerekiyorsa: sahne planı, kapak, afiş, diyagram. | Evet |
-| Besteci | `.claude/agents/besteci.md` | Ses ya da müzik gerekiyorsa: müzik planı, ses efekti listesi, müzik üretici için tarif. | Evet |
+| Resmi yazı sorumlusu | `.claude/agents/resmiyazi.md` | Üniversiteye destek talebi, dilekçe, YK yazısı. Üniversitenin karşılayacağı kalemlere TL yazmaz. | Hayır |
+| Çevirmen | `.claude/agents/cevirmen.md` | Türkçe ve İngilizce metin: uluslararası grup, "Dünyadaki Mezunlarımız". | Hayır |
+| Sosyal medya planlayıcı | `.claude/agents/sosyalmedya.md` | Instagram, LinkedIn, X için haftalık plan, gönderi ve story metinleri. Her paylaşımda proje sahibini açıkça yazar. | Evet |
+| Etkinlik ve bütçe planlayıcı | `.claude/agents/etkinlik.md` | Etkinlik programı, kişi sayısı, servis planı (27 ve 45 kişilik), kalem kalem maliyet. İç belge üretir. | Hayır |
 | Araştırmacı | `.claude/agents/arastirmaci.md` | Dışarıdan bilgi gerekiyorsa: rakip, fiyat, trend, kaynaklı bilgi. | Evet |
 | Gözcü | `.claude/agents/gozcu.md` | Rakip radarı: `rakiplerimi izle` ve `radar` işlerinde. Listedeki kaynakları tarar, üç parçalı rapor ve fırsat taslağı yazar. | Hayır |
 | Denetçi | `.claude/agents/denetci.md` | Her işin sonunda. Dışarı gidecek her çıktı denetçiden geçer. | Hayır |

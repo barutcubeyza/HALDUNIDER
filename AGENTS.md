@@ -20,7 +20,7 @@ Her işten önce `sirket/SIRKET.md` dosyasını oku.
 
 ## Kadro
 
-Görev tanımları `.claude/agents/` altında: `yazar.md`, `cizer.md`, `besteci.md`, `arastirmaci.md`, `gozcu.md`, `denetci.md`. Denetçi her işte vardır ve yardımcı almaz; tek istisna `radar` işi, orada yalnız fırsat taslağı varsa girer. Gözcü de yardımcı almaz. Ayrıntılı radar akışı ve isteğe bağlı vardiya komutları `CLAUDE.md` içindedir.
+Görev tanımları `.claude/agents/` altında: `yazar.md`, `cizer.md`, `arastirmaci.md`, `gozcu.md`, `denetci.md`, `resmiyazi.md`, `cevirmen.md`, `sosyalmedya.md`, `etkinlik.md`. Denetçi her işte vardır ve yardımcı almaz; tek istisna `radar` işi, orada yalnız fırsat taslağı varsa girer. Gözcü de yardımcı almaz. Ayrıntılı radar akışı ve isteğe bağlı vardiya komutları `CLAUDE.md` içindedir.
 
 ## İş akışı (özet)
 

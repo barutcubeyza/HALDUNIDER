@@ -22,10 +22,13 @@ Tek bir sohbete "bu haftanın bültenini çıkar, Instagram duyurusunu da yaz, s
 |---|---|---|
 | Yazar | Bülten, gönderi, sayfa metni, senaryo, mail taslağı. | Evet |
 | Çizer | Kapak, afiş, sahne planı, diyagram. Her görsel için tarif ve tarayıcıda açılan bir çizim. | Evet |
-| Besteci | Video ya da reklam için müzik ve ses planı, müzik üretici araçlara verilecek tarif. | Evet |
+| Resmi yazı sorumlusu | Üniversiteye destek talebi, dilekçe, YK yazısı. | Hayır |
+| Çevirmen | Türkçe ve İngilizce metinler. | Hayır |
+| Sosyal medya planlayıcı | Instagram, LinkedIn, X için haftalık plan ve story metinleri. | Evet |
+| Etkinlik ve bütçe planlayıcı | Program, servis planı, kalem kalem maliyet. | Hayır |
 | Araştırmacı | Rakip, fiyat, trend araştırması. Her bilgi kaynak bağlantısıyla. | Evet |
 | Gözcü | Rakip radarı. Verdiğin listeyi haftada iki sabah tarar, kim ne paylaşmış ve hangisi tutmuş yazar, bugün ne üretmen gerektiğini söyler. | Hayır |
-| Denetçi | Dışarı gidecek her çıktıyı şirket kartına ve kırmızı çizgilere karşı kontrol eder. GEÇTİ ya da DÜZELT der. | Hayır |
+| Denetçi | Dışarı gidecek her çıktıyı şirket kartına ve kırmızı çizgilere karşı kontrol eder, Türkçe dil kontrolü yapar. GEÇTİ ya da DÜZELT der. | Hayır |
 
 Kadroya istediğin rolü eklersin: `işe al çevirmen` yazman yeterli.
 

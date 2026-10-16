@@ -1,36 +1,53 @@
 # Şirket kartı
 
-> CEO ve bütün çalışanlar her işten önce bu dosyayı okur. `kur` komutu bu dosyayı senin şirketine göre baştan yazar.
-> Şu anki içerik kurgusal bir örnek şirkettir. Gerçek bir işletmeyle ilgisi yoktur.
+> CEO ve bütün çalışanlar her işten önce bu dosyayı okur. Burada "şirket" denen yapı bir dernektir; metinlerde "şirket" kelimesi kullanılmaz, "dernek" denir.
 
-demo: evet
+demo: hayır
 
-## Şirket
+## Dernek
 
-- **Ad:** Urla Sofrası
-- **Ne yapıyor:** Urla'da küçük bir ev yemekleri lokantası. Öğlen menüsü, zeytinyağlılar, hafta sonu kahvaltısı ve paket servis.
-- **Kime:** Urla'da çalışanlar, hafta sonu gelen İzmirliler, paket servis müşterileri.
-- **Kanallar:** haftalık e-posta bülteni, Instagram, lokantadaki kara tahta.
+- **Ad:** HALDUNİDER, İbn Haldun Üniversitesi Mezunları ve Mensupları Derneği. Kısa adı HALDUNİDER, üniversitenin kısa adı İHÜ.
+- **Ne yapıyor:** İHÜ mezunlarını, öğrencilerini ve personelini bir arada tutar. Kariyer söyleşileri (Kariyer Yolundan), mezun iftarı, aile pikniği, kurum ziyaretleri ve burs çalışmaları yürütür.
+- **Kime:** İHÜ mezunları, öğrencileri ve personeli.
+- **İş birlikleri:** üniversite birimleri ve TÜRGEV gibi kurumlar.
+
+## Kanallar
+
+- Instagram: gönderi ve story.
+- LinkedIn.
+- X.
+- WhatsApp grupları: üye grubu ve Halduniler Dayanışma Ağı.
+- Üniversiteye giden resmi yazılar.
+- Tanıtım kitapçığı ve faaliyet raporu.
+
+**Kurumsal e-posta adresleri** (metinde iletişim adresi gerekiyorsa yalnız bunlar kullanılır):
+- Dış kurumlar için: info@haldunider.org
+- Üniversite için: haldunider@ihu.edu.tr
 
 ## Ses
 
-- Samimi ve sade. Lokanta sahibi müşterisiyle konuşur gibi yazar.
-- Somut detay verir: hangi gün hangi yemek, hangi üreticiden hangi malzeme.
-- Abartı sıfat yok ("eşsiz", "muhteşem", "enfes" yok).
-- Uzun tire (—) kullanılmaz.
+- Kurumsal ama sıcak. "Biz" diliyle yazılır: "derneğimiz", "mezunlarımız".
+- Üniversiteye ve kurumlara giden metinler resmidir: hitap, tarih, sayı ve imza düzeni eksiksiz olur.
+- Mezun ve öğrenci duyuruları samimidir. Gerekiyorsa Türkçe ve İngilizce iki dilde yazılır.
+- Kanala göre uzunluk: WhatsApp duyurusu kısa ve tek mesajlık, LinkedIn daha açıklayıcı, Instagram gönderisi kısa metin ve net çağrı.
+
+## Görsel kimlik (logo kılavuzu)
+
+- Yazı tipi: yalnız EB Garamond.
+- Renkler: yalnız lacivert, bordo ve altın. Dernek panosunda kullanılan tonlar: lacivert `#1F2A4D`, bordo `#8F2A38`, altın `#C79A3E`. Logo kılavuzundaki kodlar farklıysa kılavuz geçerlidir. [SAHİBE SOR: kılavuzdaki kesin renk kodları]
+- Başka renk ya da yazı tipi önerilmez.
 
 ## Kırmızı çizgiler
 
-- Fiyat, indirim ya da kampanya uydurulmaz. Dosyada yazmayan rakam metne girmez.
-- Sağlık iddiası yazılmaz ("bağışıklığı güçlendirir" gibi).
-- Gerçek müşteri adı, yorum ya da fotoğraf kullanılmaz.
+- Uydurma rakam ya da tarih yazılmaz. Bu dosyada ya da iş tanımında yazmayan tarih, saat, yer, katılımcı sayısı ve tutar metne girmez; eksik bilgi `[SAHİBE SOR]` diye işaretlenir.
+- Üniversiteye giden destek taleplerinde üniversitenin karşılayacağı kalemlere TL tutarı yazılmaz. İç notlar (indirim, kalan fark, pazarlık) çıktıya girmez.
+- Başkalarının başarısı ya da projesi derneğinmiş gibi yazılmaz. Ortak çalışmada iş birliği yapılan kurum adıyla anılır.
+- Kişisel telefon numarası ve kişisel iletişim bilgisi paylaşılmaz. Yalnız yukarıdaki kurumsal e-posta adresleri kullanılır.
+- Ekip üyeleri doğrudan etiketlenmez (mention edilmez). Ekip üyelerinin özel durumları yazılmaz.
 
-## Bu haftanın bilgileri (örnek)
+## Bu dönemin bilgileri
 
-- Pazartesi-cuma öğlen menüsü: mercimek çorbası, zeytinyağlı enginar, fırın sebze, sütlaç.
-- Bu hafta yeni: Çeşme'den gelen taze börülce, perşembe ve cuma.
-- Cumartesi kahvaltısı 09:00-13:00, rezervasyon telefonla.
-- Pazar kapalı.
+- Henüz eklenmedi. İş verirken etkinliğin tarihini, yerini, konuşmacısını ve kayıt bağlantısını yaz; çalışanlar yalnız buraya ya da iş tanımına yazılanı kullanır.
 
 ## Ayarlar
 
